@@ -1,0 +1,58 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://raw.githubusercontent.com/romdim/wd-quizzes/master/quiz.schema.json",
+  "type": "array",
+  "title": "The Schema for Web Development Quizzes",
+  "description": "This defines the schema of the quiz json that are provided.",
+  "questions": {
+    "$id": "#/questions",
+    "type": "object",
+    "title": "The Questions Schema",
+    "required": [
+      "title",
+      "options",
+      "correct"
+    ],
+    "properties": {
+      "title": {
+        "$id": "#/properties/title",
+        "type": "string",
+        "title": "The Title Schema",
+        "description": "This property provides the question of the quiz.",
+        "default": "",
+        "examples": [
+          "This is a question"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "options": {
+        "$id": "#/properties/options",
+        "type": "array",
+        "title": "The Options Schema",
+        "description": "The options provided as possible answer to the question.",
+        "option": {
+          "$id": "#/properties/options/option",
+          "type": "string",
+          "title": "The Option Schema",
+          "description": "An option provided as possible answer to the question.",
+          "default": "",
+          "examples": [
+            "This is Answer no 1",
+            "This is Answer no 2"
+          ],
+          "pattern": "^(.*)$"
+        }
+      },
+      "correct": {
+        "$id": "#/properties/correct",
+        "type": "integer",
+        "title": "The Correct Schema",
+        "description": "This property provides the correct solution for the quiz.",
+        "examples": [
+          1
+        ]
+      }
+    }
+  }
+}
