@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Is JSX typesafe?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "What should we go for when there is possibility that our user could change the data?",
+    "options": [
+      "Keys",
+      "Ref",
+      "Both",
+      "None of the above"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "React merges the object you provide into the current state using:",
+    "options": [
+      "setState()",
+      "State()"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "Which of the following needs to be updated to achieve dynamic UI updates?",
+    "options": [
+      "State",
+      "Props"
+    ],
+    "correct": 1
+  },
+  {
+    "title": "Arbitrary inputs of components are called:",
+    "options": [
+      "Keys",
+      "Props",
+      "Elements",
+      "Ref"
+    ],
+    "correct": 2
+  },
+  {
+    "title": "What can be done while more than one element needs to be returned from a component?",
+    "options": [
+      "Abstraction",
+      "Packing",
+      "Insulation",
+      "Wrapping"
+    ],
+    "correct": 4
+  },
+  {
+    "title": "Lifecycle methods are mainly used:",
+    "options": [
+      "To keep track of event history",
+      "To enhance components",
+      "To free up resources",
+      "None of the above"
+    ],
+    "correct": 3
+  },
+  {
+    "title": "State can be initialized when code is loaded and can be set on event changes.",
+    "options": [
+      "False",
+      "True"
+    ],
+    "correct": 2
+  },
+  {
+    "title": "ref is used to refer a element / component returned by:",
+    "options": [
+      "react()",
+      "render()",
+      "reduce()",
+      "refer()"
+    ],
+    "correct": 2
+  }
+]
